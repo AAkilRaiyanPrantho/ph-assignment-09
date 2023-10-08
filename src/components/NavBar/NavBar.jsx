@@ -1,3 +1,6 @@
+import { Link, NavLink } from "react-router-dom";
+import './NavBar.css';
+
 const NavBar = () => {
   return (
     <div className="navbar bg-base-100 px-10">
@@ -24,13 +27,13 @@ const NavBar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Homepage</a>
+              <NavLink to="/">Homepage</NavLink> 
             </li>
             <li>
-              <a>Portfolio</a>
+              <NavLink to="/ourTeam">Our Team</NavLink> 
             </li>
             <li>
-              <a>About</a>
+              <NavLink to='/reviews'>Customer Reviews</NavLink>
             </li>
           </ul>
         </div>
@@ -44,7 +47,8 @@ const NavBar = () => {
         </a>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-ghost btn-circle">
+        <Link to='/signUp'><button className="btn btn-ghost">Sign Up</button></Link>
+        {/* <button className="btn btn-ghost btn-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
@@ -59,8 +63,8 @@ const NavBar = () => {
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             />
           </svg>
-        </button>
-        <button className="btn btn-ghost btn-circle">
+        </button> */}
+        {/* <button className="btn btn-ghost btn-circle">
           <div className="indicator">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +82,7 @@ const NavBar = () => {
             </svg>
             <span className="badge badge-xs badge-primary indicator-item"></span>
           </div>
-        </button>
+        </button> */}
       </div>
     </div>
   );
