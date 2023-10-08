@@ -20,10 +20,8 @@ const Carousel = () => {
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">MUSIC FESTIVALS</h1>
-              <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+              <p className="mb-5 font-semibold">
+              Join us for the ultimate music extravaganza! <br /> Experience the magic of live music at our Summer Music Festival!
               </p>
             </div>
           </div>
@@ -49,9 +47,7 @@ const Carousel = () => {
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">THEATRE & ARTS</h1>
               <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+              Step into the enchanting world of Shakespearean classics at our theater production. Be captivated by the poetic language, intricate characters, and dramatic performances.
               </p>
               
             </div>
@@ -75,12 +71,10 @@ const Carousel = () => {
         >
           <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
+            <div className="max-w-lg">
               <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">MOVIE PREMIERES</h1>
               <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+              Witness the birth of cinematic masterpieces and be part of the magic at our Cinematic Premiere Night. Experience the thrill of watching the latest blockbuster films before anyone else.
               </p>
               
             </div>
@@ -104,12 +98,10 @@ const Carousel = () => {
         >
           <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-lg">
+            <div className="max-w-xl">
               <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">AWARD CEREMONIES</h1>
               <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+              Celebrate excellence in the world of entertainment at our Annual Awards Extravaganza! Join us at the prestigious Annual Awards Extravaganza, where the stars of the entertainment industry gather to celebrate outstanding achievements in film, television, music, and more.
               </p>
               
             </div>
@@ -136,9 +128,7 @@ const Carousel = () => {
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">COMEDY SHOWS</h1>
               <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+              Get ready for a night of uproarious laughter! Join us for a side-splitting evening at Laugh-a-Palooza. Our lineup of top comedians will have you rolling in the aisles with their hilarious anecdotes and sharp wit.
               </p>
               
             </div>
@@ -161,12 +151,10 @@ const Carousel = () => {
         >
           <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
+            <div className="max-w-lg">
               <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">SPORTING EVENTS</h1>
               <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+              Feel the adrenaline rush as you witness the most anticipated Sports Championship Spectacular. Witness the thrill of victory at our Sports Championship Spectacular!
               </p>
               
             </div>
