@@ -16,16 +16,15 @@ const Carousel = () => {
               "url(https://i.ibb.co/YLKHwXN/flatten.webp)",
           }}
         >
-          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">MUSIC FESTIVALS</h1>
               <p className="mb-5">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
         </div>
@@ -45,16 +44,16 @@ const Carousel = () => {
               "url(https://i.ibb.co/2tmFZYS/13038-Musical-theatre-students-performing.jpg)",
           }}
         >
-          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">THEATRE & ARTS</h1>
               <p className="mb-5">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              
             </div>
           </div>
         </div>
@@ -74,16 +73,16 @@ const Carousel = () => {
               "url(https://i.ibb.co/zxXHFyV/indie-film-festival-premiere.jpg)",
           }}
         >
-          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">MOVIE PREMIERES</h1>
               <p className="mb-5">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              
             </div>
           </div>
         </div>
@@ -103,16 +102,16 @@ const Carousel = () => {
               "url(https://i.ibb.co/zsSBNQv/All-Winners-Confetti-1024x495.jpg)",
           }}
         >
-          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+            <div className="max-w-lg">
+              <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">AWARD CEREMONIES</h1>
               <p className="mb-5">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              
             </div>
           </div>
         </div>
@@ -132,16 +131,16 @@ const Carousel = () => {
               "url(https://i.ibb.co/fdNyctG/AAAAQSGq-RNATRmf-Lr-z-YKppk-Qg-KLn-Z4ao-I9v-NStx-NYs-U6n-Cm-E8d6-D8-Vq-M25un-ZQmv6572tp2-Hboa-Ikx1-Q.jpg)",
           }}
         >
-          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">COMEDY SHOWS</h1>
               <p className="mb-5">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              
             </div>
           </div>
         </div>
@@ -160,16 +159,16 @@ const Carousel = () => {
               "url(https://i.ibb.co/ThjPQrM/Sports-events-insurance-Main-scaled-e1644805433386.jpg)",
           }}
         >
-          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-overlay bg-[#0B0C10]/80"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <h1 className="mb-5 text-5xl font-bold text-[#66FCF1]">SPORTING EVENTS</h1>
               <p className="mb-5">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              
             </div>
           </div>
         </div>
