@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Summer Music Festival",
-      "image": "https://example.com/summer_music.jpg",
+      "image": "https://i.ibb.co/CvRCpVw/tomorrowland-best-summer-music-festivals-europe.jpg",
       "price": 2450.99,
       "short_description": "Join us for the ultimate music extravaganza!",
       "long_description": "Experience the magic of live music at our Summer Music Festival. Get ready for a day filled with your favorite bands, delicious food, and an unforgettable atmosphere. Whether you're a fan of rock, pop, or EDM, this festival has something for everyone. Don't miss out on this opportunity to create lasting memories with friends and fellow music lovers.",
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Shakespearean Classics",
-      "image": "https://example.com/shakespearean_theater.jpg",
+      "image": "https://i.ibb.co/PYCDD8q/Shakespeares-Globe-2019-Zolima-City-Mag-Hong-Kong-Events.jpg",
       "price": 3155.99,
       "short_description": "Immerse yourself in the world of timeless theater.",
       "long_description": "Step into the enchanting world of Shakespearean classics at our theater production. Be captivated by the poetic language, intricate characters, and dramatic performances. Our talented cast and crew bring these timeless tales to life on stage, providing an evening of entertainment that will leave you spellbound. Whether you're a fan of tragedy or comedy, this event promises an unforgettable experience for all theater enthusiasts.",
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "title": "Cinematic Premiere Night",
-      "image": "https://example.com/cinematic_premiere.jpg",
+      "image": "https://i.ibb.co/sKnJps1/Cinematic-Premiere-Night.jpg",
       "price": 2750.99,
       "short_description": "Witness the birth of cinematic masterpieces.",
       "long_description": "Step onto the red carpet and be part of the magic at our Cinematic Premiere Night. Experience the thrill of watching the latest blockbuster films before anyone else. Rub shoulders with stars and directors as you indulge in a night of glamour and excitement. From action-packed adventures to heartfelt dramas, this event is a celebration of the art of cinema, offering a sneak peek into the world of storytelling and creativity.",
@@ -29,7 +29,7 @@
     {
       "id": 4,
       "title": "Laugh-a-Palooza",
-      "image": "https://example.com/comedy_show.jpg",
+      "image": "https://i.ibb.co/RN4GPwp/Laugh-a-Palooza.webp",
       "price": 2200.99,
       "short_description": "Get ready for a night of uproarious laughter!",
       "long_description": "Join us for a side-splitting evening at Laugh-a-Palooza. Our lineup of top comedians will have you rolling in the aisles with their hilarious anecdotes and sharp wit. Whether you enjoy observational humor or stand-up comedy, this show promises non-stop laughter from start to finish. It's the perfect way to unwind and share a night of mirth with friends and family.",
@@ -38,7 +38,7 @@
     {
       "id": 5,
       "title": "Sports Championship Spectacular",
-      "image": "https://example.com/sports_championship.jpg",
+      "image": "https://i.ibb.co/nsbTvn6/Sports-Championships.webp",
       "price": 4750.99,
       "short_description": "Witness the thrill of victory at our Sports Championship Spectacular!",
       "long_description": "Feel the adrenaline rush as you witness the most anticipated Sports Championship Spectacular. Watch elite athletes from various sports battle it out for glory and honor. Whether it's basketball, soccer, or tennis, this event is a celebration of athleticism and sportsmanship. The energy in the arena is contagious as fans from all around come together to support their favorite teams and athletes. Don't miss your chance to be part of sports history and create memories that will last a lifetime.",
@@ -46,11 +46,11 @@
     },
     {
       "id": 6,
-      "title": "Celebrity Awards Extravaganza",
-      "image": "https://example.com/celebrity_awards.jpg",
+      "title": "Annual Awards Extravaganza",
+      "image": "https://i.ibb.co/qnq8GpV/pngtree-lighting-to-award-ceremony-background-image-786264.jpg",
       "price": 5000.00,
-      "short_description": "Celebrate excellence in the world of entertainment at our Celebrity Awards Extravaganza!",
-      "long_description": "Join us at the prestigious Celebrity Awards Extravaganza, where the stars of the entertainment industry gather to celebrate outstanding achievements in film, television, music, and more. Be dazzled by the glitz and glamour of the red carpet, and witness your favorite artists, actors, directors, and creators receive accolades for their exceptional work across various fields of entertainment. This event is a tribute to the creativity and talent that shape our entertainment landscape. Reserve your seat for a night of elegance, celebration, and inspiration.",
+      "short_description": "Celebrate excellence in the world of entertainment at our Annual Awards Extravaganza!",
+      "long_description": "Join us at the prestigious Annual Awards Extravaganza, where the stars of the entertainment industry gather to celebrate outstanding achievements in film, television, music, and more. Be dazzled by the glitz and glamour of the red carpet, and witness your favorite artists, actors, directors, and creators receive accolades for their exceptional work across various fields of entertainment. This event is a tribute to the creativity and talent that shape our entertainment landscape. Reserve your seat for a night of elegance, celebration, and inspiration.",
       "category": "Award Ceremonies"
     }
   ]
