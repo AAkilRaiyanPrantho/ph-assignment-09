@@ -1,9 +1,16 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../AuthProviders/AuthProvider";
 
 
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css'
+
+
 const SignIn = () => {
+  const [signInError, setSignInError] = useState('');
+
+  const [signInSuccess, setSignInSuccess] = useState('');
 
   const authInfo = useContext(AuthContext);
   const {signInUser} = authInfo;
@@ -14,15 +21,23 @@ const SignIn = () => {
     const password = e.target.password.value;
     console.log(email,password);
 
+    // clear error
+    setSignInError('');
+    setSignInSuccess('');
+
     signInUser(email,password)
     .then(result =>{
       console.log(result.user)
+      setSignInSuccess('Sign In Successful');
     })
     .catch(error => {
       console.error(error);
+      setSignInError(error.message);
     })
 
   }
+
+  const notify = () => toast(signInError);
 
 
     return (
@@ -54,9 +69,16 @@ const SignIn = () => {
          <p className="mt-4">Not a member yet? <Link to='/signUp'><span className="text-[#66FCF1]">Join Us</span></Link></p> 
         </div>
         <div className="form-control mt-6">
-          <button className="btn outline outline-[#66FCF1] text-[#66FCF1]">Sign In</button>
+          <button onClick={signInError && notify()} className="btn outline outline-[#66FCF1] text-[#66FCF1]">Sign In</button>
+          <ToastContainer />
         </div>
       </form>
+      {
+        signInError && <p className="text-red-800">{signInError}</p>  
+      }
+      {
+        signInSuccess && <p className="text-green-800">{signInSuccess}</p>  
+      }
     </div>
   </div>
 </div>
