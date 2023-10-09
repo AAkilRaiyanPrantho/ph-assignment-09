@@ -13,6 +13,7 @@ import SignUp from "./components/SignUp/SignUp";
 import SignIn from "./components/SignIn/SignIn";
 import Blog from "./components/Blog/Blog";
 import AuthProvider from "./components/AuthProviders/AuthProvider";
+import PrivateRoute from "./routes/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -26,16 +27,16 @@ const router = createBrowserRouter([
       },
       {
         path: "/details/:id",
-        element: <Details></Details>,
+        element: <PrivateRoute><Details></Details></PrivateRoute>,
         loader: () => fetch("../entertainment.json"),
       },
       {
         path: "/blog",
-        element: <Blog></Blog>,
+        element: <PrivateRoute><Blog></Blog></PrivateRoute>,
       },
       {
         path: "/reviews",
-        element: <CustomerReviews></CustomerReviews>,
+        element: <PrivateRoute><CustomerReviews></CustomerReviews></PrivateRoute>,
       },
       {
         path: "/signUp",
