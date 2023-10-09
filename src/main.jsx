@@ -1,25 +1,25 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
 
-import Home from './components/Home/Home';
-import ErrorPage from './components/ErrorPage/ErrorPage';
-import Root from './components/Root/Root';
-import Details from './components/Details/Details';
-import OurTeam from './components/OurTeam/OurTeam';
-import CustomerReviews from './components/CustomerReviews/CustomerReviews';
-import SignUp from './components/SignUp/SignUp';
+import Home from "./components/Home/Home";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
+import Root from "./components/Root/Root";
+import Details from "./components/Details/Details";
+
+import CustomerReviews from "./components/CustomerReviews/CustomerReviews";
+import SignUp from "./components/SignUp/SignUp";
+import SignIn from "./components/SignIn/SignIn";
+import Blog from "./components/Blog/Blog";
+import AuthProvider from "./components/AuthProviders/AuthProvider";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
-    children:[
+    children: [
       {
         path: "/",
         element: <Home></Home>,
@@ -27,11 +27,11 @@ const router = createBrowserRouter([
       {
         path: "/details/:id",
         element: <Details></Details>,
-        loader:() => fetch('../entertainment.json')
+        loader: () => fetch("../entertainment.json"),
       },
       {
-        path: "/ourTeam",
-        element: <OurTeam></OurTeam>,
+        path: "/blog",
+        element: <Blog></Blog>,
       },
       {
         path: "/reviews",
@@ -41,13 +41,18 @@ const router = createBrowserRouter([
         path: "/signUp",
         element: <SignUp></SignUp>,
       },
-    ]
+      {
+        path: "/signIn",
+        element: <SignIn></SignIn>,
+      },
+    ],
   },
 ]);
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  </React.StrictMode>
+);

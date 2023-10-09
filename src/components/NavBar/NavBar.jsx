@@ -30,7 +30,7 @@ const NavBar = () => {
               <NavLink to="/">Homepage</NavLink> 
             </li>
             <li>
-              <NavLink to="/ourTeam">Our Team</NavLink> 
+              <NavLink to="/blog">Blog</NavLink> 
             </li>
             <li>
               <NavLink to='/reviews'>Customer Reviews</NavLink>
@@ -39,10 +39,10 @@ const NavBar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">
+        <a className="normal-case text-2xl">
           <p>
-            <span className="text-[#66FCF1]">E</span>ntertainment{" "}
-            <span className="text-[#66FCF1]">W</span>orld
+            <span className="text-[#66FCF1] font-extrabold text-3xl">E</span>ntertainment{" "}
+            <span className="text-[#66FCF1] font-extrabold text-3xl">W</span>orld
           </p>
         </a>
       </div>
