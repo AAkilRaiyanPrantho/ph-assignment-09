@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
+import { AuthContext } from "../AuthProviders/AuthProvider";
+import { useContext } from "react";
 
 
 const SignUp = () => {
+
+  const authInfo = useContext(AuthContext);
+
+  const{createUser} = authInfo;
 
   const handleSignUp = e =>{
     e.preventDefault();
@@ -9,6 +15,15 @@ const SignUp = () => {
     const email = e.target.email.value;
     const password = e.target.password.value;
     console.log(email,password,name);
+
+    createUser(email, password)
+    .then(result =>{
+      console.log(result.user)
+    })
+    .catch(error => {
+      console.error(error);
+    })
+
   }
 
 
