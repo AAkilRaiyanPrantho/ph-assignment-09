@@ -6,7 +6,7 @@ const Service = ({ service }) => {
 
   return (
     <div>
-      <div className="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card lg:card-side bg-base-100 shadow-xl" data-aos="flip-down">
   <div><figure><img src={image} className="w-[500px] h-[250px]" alt={title}/></figure></div>
   <div className="card-body">
     <h2 className="card-title text-[#66FCF1] font-bold text-2xl">{title}</h2>
