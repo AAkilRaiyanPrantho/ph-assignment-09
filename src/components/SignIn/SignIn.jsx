@@ -28,16 +28,28 @@ const SignIn = () => {
     signInUser(email,password)
     .then(result =>{
       console.log(result.user)
-      setSignInSuccess('Sign In Successful');
+      if(result.user.emailVerified){
+        setSignInSuccess('Sign In Successful');
+        notify1();
+      }
+      else{
+        notify3();
+      }
     })
     .catch(error => {
       console.error(error);
       setSignInError(error.message);
+      notify2();
     })
 
   }
 
-  const notify = () => toast(signInError);
+  const notify2 = () => toast(signInError);
+  console.log(signInError);
+
+  const notify1 = () => toast('Sign In Successful!!!');
+  
+  const notify3 = () => toast('Please Verify Your Email!!!');
 
 
     return (
@@ -69,7 +81,7 @@ const SignIn = () => {
          <p className="mt-4">Not a member yet? <Link to='/signUp'><span className="text-[#66FCF1]">Join Us</span></Link></p> 
         </div>
         <div className="form-control mt-6">
-          <button onClick={signInError && notify()} className="btn outline outline-[#66FCF1] text-[#66FCF1]">Sign In</button>
+          <button className="btn outline outline-[#66FCF1] text-[#66FCF1]">Sign In</button>
           <ToastContainer />
         </div>
       </form>
