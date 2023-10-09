@@ -1,7 +1,19 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './NavBar.css';
+import { useContext } from "react";
+import { AuthContext } from "../AuthProviders/AuthProvider";
 
 const NavBar = () => {
+
+  const{ user, logOut } = useContext(AuthContext);
+
+
+  const handlLogOut = () =>{
+    logOut()
+    .then(() => console.log('User logged Out'))
+    .catch(error => console.error(error))
+  }
+
   return (
     <div className="navbar bg-base-100 px-10">
       <div className="navbar-start">
@@ -46,8 +58,32 @@ const NavBar = () => {
           </p>
         </a>
       </div>
-      <div className="navbar-end">
-        <Link to='/signUp'><button className="btn btn-ghost">Sign Up</button></Link>
+      {
+        user? <> <div className="navbar-end"><div className="dropdown dropdown-end">
+        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+          <div className="w-10 rounded-full">
+            <img src={user && user.photoURL} />
+          </div>
+        </label>
+        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li>
+            <p>{user? <span>{user.email}</span>: 'User Email' }</p>
+          </li>
+          <li><a onClick={handlLogOut}>Logout</a></li>
+        </ul>
+      </div>
+    </div></>:<><div className="navbar-end">
+          <div>
+            <ul>
+              <li>
+                <NavLink to='/signUp'>
+                  <button className="btn btn-ghost">
+                    Sign Up</button>
+                    </NavLink></li>
+                    </ul>
+                    </div></div></>
+      }
+       
         {/* <button className="btn btn-ghost btn-circle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +120,7 @@ const NavBar = () => {
           </div>
         </button> */}
       </div>
-    </div>
+    
   );
 };
 

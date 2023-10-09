@@ -1,4 +1,5 @@
 li a.active{
     text-decoration: underline;
-    color: chocolate;
+    color: #61FCF1;
+    font-style: italic;
 }
