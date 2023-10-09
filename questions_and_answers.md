@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Value in 'greetign' has been assigned without declaring it first. Hence it has become a global property which can be accessed from any where.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>If we add a String variable with a Number variable, it turns the Number variable into String as well and the simply return a concatenated result.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Well nothing changed in the original array. All the changes happened in the Info Object. So it's still the same Array.</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>The value of 'name' was not sent as a parameter. So as it was not defined, the result came 'Undefined' as well.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>The function is checking whether the value of the array is Truthy or Falsy. As '0' is the only Falsy value and the other 3 are Truthy value, the result of Count came 3.</i>
 
 </p>
 </details>
