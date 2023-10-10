@@ -9,7 +9,7 @@ const Home = () => {
       <div>
         <Carousel></Carousel>
       </div>
-      <div className="flex flex-col items-end justify-end px-2">
+      <div className="flex flex-col items-center justify-center px-2">
         <div className="mr-6"><h1 className="outline outline-[#66FCF1] font-medium text-3xl my-2 p-6"><span className="text-[#66FCF1]">L</span>ast <span className="text-[#66FCF1]">M</span>onth</h1></div>
         <div><Timer></Timer></div>
         

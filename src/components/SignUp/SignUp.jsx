@@ -48,6 +48,7 @@ const SignUp = () => {
         console.log(result.user);
         setSignUpSuccess("Sign Up Successful");
         notify1();
+        e.target.reset();
 
         // Updating Profile
         updateProfile(result.user, {

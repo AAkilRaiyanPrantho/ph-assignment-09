@@ -10,6 +10,9 @@ import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import auth from "../../firebase/firebase.config";
 
 const SignIn = () => {
+
+  
+
   const provider = new GoogleAuthProvider();
 
   const handleGoogleSignIn = () => {
@@ -18,9 +21,11 @@ const SignIn = () => {
     .then((result) => {
       const user = result.user;
       console.log(user);
+      notify1();
     })
     .catch(error => {
       console.log('error',error.message);
+      notify2();
     })
   };
 
@@ -44,6 +49,7 @@ const SignIn = () => {
     signInUser(email, password)
       .then((result) => {
         console.log(result.user);
+        e.target.reset();
         if (result.user.emailVerified) {
           setSignInSuccess("Sign In Successful");
           notify1();

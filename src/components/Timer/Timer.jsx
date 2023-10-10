@@ -1,7 +1,7 @@
 const Timer = () => {
   return (
     <div>
-      <div className="stats stats-vertical lg:stats-horizontal shadow">
+      <div className="stats stats-vertical md:stats-horizontal lg:stats-horizontal shadow">
   
   <div className="stat">
     <div className="stat-title">Purchases</div>
