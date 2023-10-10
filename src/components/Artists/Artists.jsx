@@ -2,7 +2,7 @@ const Artists = () => {
   return (
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-2 my-8 lg:gap-x-20
-      " data-aos="fade-left">
+      " data-aos="zoom-in">
       <div className="card card-compact w-96 bg-base-100 shadow-xl border-2 border-[#66FCF1] my-4">
   <figure><img src="https://i.ibb.co/7QzS5yV/68d6be1b-4a8c-426f-abd9-9b9b63d401ed-Gabriel-Iglesias008.webp" alt="Gabriel Iglesias" /></figure>
   <div className="card-body">
