@@ -1,32 +1,27 @@
 const Timer = () => {
   return (
     <div>
-      <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
-        <div className="flex flex-col">
-          <span className="countdown font-mono text-5xl">
-            <span style={{ "--value": 15 }}></span>
-          </span>
-          days
-        </div>
-        <div className="flex flex-col">
-          <span className="countdown font-mono text-5xl">
-            <span style={{ "--value": 10 }}></span>
-          </span>
-          hours
-        </div>
-        <div className="flex flex-col">
-          <span className="countdown font-mono text-5xl">
-            <span style={{ "--value": 24 }}></span>
-          </span>
-          min
-        </div>
-        <div className="flex flex-col">
-          <span className="countdown font-mono text-5xl">
-            <span style={{ "--value": 41 }}></span>
-          </span>
-          sec
-        </div>
-      </div>
+      <div className="stats stats-vertical lg:stats-horizontal shadow">
+  
+  <div className="stat">
+    <div className="stat-title">Purchases</div>
+    <div className="stat-value">31K</div>
+    <div className="stat-desc">Sept 1st - Oct 1st</div>
+  </div>
+  
+  <div className="stat">
+    <div className="stat-title">New Users</div>
+    <div className="stat-value">4,200</div>
+    <div className="stat-desc">↗︎ 400 (22%)</div>
+  </div>
+  
+  <div className="stat">
+    <div className="stat-title">New Registers</div>
+    <div className="stat-value">1,200</div>
+    <div className="stat-desc">↘︎ 90 (14%)</div>
+  </div>
+  
+</div>
     </div>
   );
 };
