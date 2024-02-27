@@ -1,6 +1,7 @@
 => Website Name: ENTERTAINMENT WORLD
 
 => Live Link: https://programming-hero-assignment-9.web.app
+=> BackUp Link: https://ph-assignment-09-2171fc.netlify.app/
 
 => Features:
         (*) Offers 6 different Entertainment event services based on Users needs
